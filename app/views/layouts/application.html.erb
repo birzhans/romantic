@@ -11,7 +11,10 @@
   </head>
 
   <body>
-  <div class="container">
+  <div class="effect" id="element">
+    <%= image_tag 'effect.gif' %>
+  </div>
+  <div class="container hide" id="main">
     <%= render 'shared/nav' %>
     <%= render 'shared/flash' %>
     <%= yield %>

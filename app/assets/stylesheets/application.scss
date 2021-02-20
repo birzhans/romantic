@@ -15,6 +15,24 @@
  *= require material_icons
  */
 @import "bootstrap";
+.effect {
+  position:fixed;
+  padding:0;
+  margin:0;
+
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+}
+
+.effect img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 body {
   margin: 20px 60px 60px 20px;
 }
@@ -50,4 +68,8 @@ body {
 
 #area {
   width: 70%;
+}
+
+.hide {
+  display: none;
 }
