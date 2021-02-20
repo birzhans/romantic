@@ -12,5 +12,42 @@
  *
  *= require_tree .
  *= require_self
+ *= require material_icons
  */
 @import "bootstrap";
+body {
+  margin: 20px 60px 60px 20px;
+}
+
+.my-nav {
+  border-radius: 25px;
+  padding: 20px;
+  background-color: #e4e8f0;
+}
+
+.gif {
+  height: 80px;
+  border-radius: 20px;
+}
+
+.main-message {
+  background-color: #cdddf7;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px 0px 0px 5px;
+}
+
+.links {
+  width: 30%;
+}
+
+.form {
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px 0px 0px 5px;
+  border: 3px solid #2E2F30;
+}
+
+#area {
+  width: 70%;
+}

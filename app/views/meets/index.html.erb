@@ -1,17 +1,36 @@
-<h1>Приглашение</h1>
+<div class="row">
+  <div class="main-message">
+    <h1>Приглашение</h1>
+    <h4>
+      Привет, Аружан! Я хочу пригласить тебя погулять.<br>
+      Не знаю как это делается, <br>
+      и ничего лучше не придумал чем написать этот сайт.<br>
+    </h4>
+  </div>
+</div>
 
-<h2>
-  Привет! Я хочу пригласить тебя погулять.
-</h2>
+<div class="row">
+  <div class="main-message">
+    <p>
+      Если тебе интересно, то, заполни пожалуйста поля ниже.<br>
+      Давай определимся когда нам будет удобно встретиться.
+    </p>
+  </div>
+</div>
 
-<h2>
-  Не знаю как это делать, и ничего лучше не придумал чем написать этот сайт.
-</h2>
+<div class="row">
+  <div class="form col-sm-12 col-xl-6">
+    <%= render 'form', meet: @meet %>
+  </div>
+</div>
 
-<p>
-  Если тебе интересно, то, заполни пожалуйста поля ниже.
-</p>
+<p>(Полезные) ссылки:</p>
+<div class="row links">
+  <div class="col-8">
+    <a href="#">Github project repo</a>
+  </div>
 
-<div class="form">
-  <%= render 'form', meet: @meet %>
+  <div class="col">
+    <a href="https://t.me/cmdf1"><i class="material-icons">comment_bank</i></a>
+  </div>
 </div>

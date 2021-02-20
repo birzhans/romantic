@@ -10,12 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_02_20_114503) do
+ActiveRecord::Schema.define(version: 2021_02_20_132838) do
 
   create_table "meets", force: :cascade do |t|
-    t.string "day"
-    t.string "place"
-    t.string "time"
+    t.string "day", null: false
+    t.string "place", null: false
+    t.datetime "time", null: false
     t.string "optional"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

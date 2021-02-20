@@ -9,7 +9,9 @@ class MeetsController < ApplicationController
     @meet = Meet.create(meet_params)
 
     if @meet.save
-      redirect_to @meet
+      redirect_to @meet, success: "Данные успешно сохранены"
+    else
+      render :index
       end
   end
 

@@ -28,6 +28,7 @@ gem 'jbuilder', '~> 2.7'
 
 # UI
 gem 'bootstrap', '~> 5.0.0.beta1'
+gem 'material_icons'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false

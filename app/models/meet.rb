@@ -1,3 +1,3 @@
 class Meet < ApplicationRecord
-  validates :day, presence: true
+  validates :day, :time, :place, presence: true
 end
