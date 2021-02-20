@@ -1,8 +1,8 @@
-<h1> Form</h1>
+<p>Давай определимся когда нам будет удобно встретиться.</p>
 
 <%= form_with model: meet, url: meets_path(@meet), method: :post do |form| %>
   <%= form.label :day %>
   <%= form.select :day, ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'] %>
 
-  <%= form.submit 'Go' %>
+  <%= form.submit 'Go', class: 'btn btn-primary' %>
 <% end %>

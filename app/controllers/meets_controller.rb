@@ -1,6 +1,6 @@
 class MeetsController < ApplicationController
   before_action :set_meet, only: :show
-  
+
   def index
     @meet = Meet.new
   end
