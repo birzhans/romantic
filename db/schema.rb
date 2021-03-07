@@ -12,10 +12,13 @@
 
 ActiveRecord::Schema.define(version: 2021_02_20_132838) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "meets", force: :cascade do |t|
     t.string "day", null: false
     t.string "place", null: false
-    t.datetime "time", null: false
+    t.string "time"
     t.string "optional"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
