@@ -2,8 +2,8 @@ document.addEventListener('turbolinks:load', function() {
     if (document.getElementById('show') === null) {
         setTimeout(function () {
             document.getElementById('main').classList.remove('hide');
-            removeFadeOut(document.getElementById('element'), 0)
-        }, 0)
+            removeFadeOut(document.getElementById('element'), 500)
+        }, 2000)
     } else {
         document.getElementById('main').classList.remove('hide');
         document.getElementById('element').classList.add('hide');

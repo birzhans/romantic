@@ -1,4 +1,4 @@
-<div class="p-7">
+<div style="padding: 30px;">
   <%= form_with model: meet, url: meets_path(@meet), method: :post do |form| %>
     <%= render 'shared/errors', resource: @meet %>
     <div class="field m-2">
@@ -14,7 +14,7 @@
     <div class="field m-2" id="area">
       <p>Место</p>
       <%= form.text_area :place,
-                         placeholder: 'Hard Rock cafe, Медео и тд',
+                         placeholder: 'Hard Rock cafe, Парк и тд',
                          class: "form-control",
                          rows: 2
       %>
@@ -23,7 +23,7 @@
     <div class="field m-2" id="area">
       <p>Дополнительная информация</p>
       <%= form.text_area :optional,
-                         placeholder: 'Любая информация (Что ты наденешь, Какие цветы ты любишь и тд).',
+                         placeholder: 'Любая информация (Что ты наденешь, Какие цветы ты любишь..).',
                          class: "form-control",
                          rows: 4
       %>

@@ -26,6 +26,10 @@
   height: 100%;
 }
 
+.r {
+  border-radius: 25px;
+}
+
 .effect img {
   display: block;
   margin-left: auto;
@@ -40,7 +44,7 @@ body {
 .my-nav {
   border-radius: 25px;
   padding: 20px;
-  background-color: #e4e8f0;
+  background-color: #f9d5e5;
 }
 
 .gif {
@@ -51,8 +55,12 @@ body {
 .main-message {
   background-color: #cdddf7;
   border-radius: 15px;
-  padding: 10px;
-  margin: 10px 0px 0px 5px;
+  // padding: 10px;
+  // margin: 10px 0px 0px 5px;
+}
+
+.message {
+  background-color: #7FDBFF;
 }
 
 .subtitle {
@@ -60,14 +68,18 @@ body {
 }
 
 .links {
-  width: 30%;
+  background-color: #ffbfd3;
 }
 
 .form {
   border-radius: 15px;
   padding: 20px;
-  margin: 10px 0px 0px 5px;
+  // margin: 10px 0px 0px 5px;
   border: 3px solid #2E2F30;
+}
+
+.left-info {
+  background-color: #39CCCC;
 }
 
 #area {
