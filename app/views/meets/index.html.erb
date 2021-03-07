@@ -2,36 +2,36 @@
 <div class="row">
   <div class="main-message">
     <h1>Приглашение</h1>
-    <h4>
-      Привет, Аружан! Я хочу пригласить тебя погулять.<br>
+    <p class="subtitle">
+      Привет, Мадина! Я хочу пригласить тебя погулять.<br>
       Не знаю как это делается, <br>
       и ничего лучше не придумал чем написать этот сайт.<br>
-    </h4>
-  </div>
-</div>
-
-<div class="row">
-  <div class="main-message">
-    <p>
-      Если тебе интересно, то, заполни пожалуйста поля ниже.<br>
-      Давай определимся когда нам будет удобно встретиться.
     </p>
   </div>
 </div>
 
 <div class="row">
-  <div class="form col-sm-12 col-xl-6">
+  <div class="form col-sm-12 col-xl-8">
     <%= render 'form', meet: @meet %>
+  </div>
+
+  <div class="main-message col-sm-12 col-xl-3">
+    <p>
+      Если тебе интересно, то, заполни пожалуйста эти поля.<br>
+      Давай определимся когда нам будет удобно встретиться.
+    </p>
+
+    <%= image_tag 'cringe.jpg', class: 'cringe' %>
   </div>
 </div>
 
-<p>(Полезные) ссылки:</p>
-<div class="row links">
-  <div class="col-8">
-    <a href="#">Github project repo</a>
+<div class="row links m-3">
+  <p>(Полезные) ссылки:</p>
+  <div class="col-6">
+    <a href="https://github.com/birzhans/romantic">Github project repo</a>
   </div>
 
-  <div class="col">
-    <a href="https://t.me/cmdf1"><i class="material-icons">comment_bank</i></a>
+  <div class="col-6">
+    <a href="https://t.me/cmdf1"><i class="material-icons">comment_bank</i>Telegram</a>
   </div>
 </div>

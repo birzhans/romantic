@@ -3,6 +3,9 @@
   <head>
     <title>Romantic</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <%= favicon_link_tag asset_path('android-chrome-192x192.png') %>
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -12,7 +15,7 @@
 
   <body>
   <div class="effect" id="element">
-    <%= image_tag 'effect.gif' %>
+    
   </div>
   <div class="container hide" id="main">
     <%= render 'shared/nav' %>
