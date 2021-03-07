@@ -18,7 +18,8 @@ ActiveRecord::Schema.define(version: 2021_02_20_132838) do
   create_table "meets", force: :cascade do |t|
     t.string "day", null: false
     t.string "place", null: false
-    t.string "time"
+    t.string "time", null: false
+    t.string "datetime", null: false
     t.string "optional"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
